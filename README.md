@@ -27,7 +27,11 @@ Autenticação de usuário
 
 `http://localhost:8080/users/token` com o metodo: `POST` com os atributos: login e password veja o exemplo: 
 
+```js
+
 { login: "nodeauth", password: "12345678" } 
+
+``` 
 
 Exibir usuários
 
