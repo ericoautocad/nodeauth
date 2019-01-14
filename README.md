@@ -17,7 +17,11 @@ Cadastro de usuários
 
 `http://localhost:8080/users` com o metodo: `POST` com os atributos: username, login, password e active veja o exemplo: 
 
+```js
+
 { username: "erico", login: "nodeauth", password: "12345678", active: 1 } 
+
+```
 
 Autenticação de usuário
 
