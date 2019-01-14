@@ -10,7 +10,7 @@ Siga os seguintes passo para rodar as duas aplicações:
 
 `docker-compose up` 
 
-4\) Somente após ver a mensagem "Express ha been started on port: 8080" tente acessar as aplicações nos seguintes endereços: 
+4\) Somente após ver a mensagem "Express ha been started on port: 8080" e na próxima mostrar a mensagem "OK", tente acessar as aplicações nos seguintes endereços: 
 
 
 Cadastro de usuários
@@ -43,4 +43,12 @@ Excluir usuário
 
 `http://localhost:8080/users/<userid>` com o metodo: `DELETE` com o header: `Authorization` no padrão: `Authorization: JWT codigodoseutokendeacesso` veja o exemplo: 
 
-`DELETE` `http://localhost:8080/users/9`
+`DELETE` `http://localhost:8080/users/9` 
+
+5\) Acesse o container `node.js` com o comando: 
+
+`docker exec -it node.js /bin/bash` 
+
+3\) Execute os testes automatizados com o comando: 
+
+`npm test` 
